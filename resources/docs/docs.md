@@ -30,7 +30,7 @@ to render the HTML content:
 The page contains a link to the compiled ClojureScript found in the `target/cljsbuild/public` folder:
 
 ```
-{% script "/js/app.js" %}
+
 ```
 
 The rest of this page is rendered by ClojureScript found in the `src/cljs/todo/core.cljs` file.
